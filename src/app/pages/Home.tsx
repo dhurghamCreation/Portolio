@@ -150,7 +150,7 @@ export function Home() {
   return (
     <div className="min-h-screen relative">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-zinc-950 via-slate-900 to-stone-950">
+      <section className="relative flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28 pb-16 overflow-hidden bg-slate-950">
         {/* Three.js 3D Interactive Canvas */}
         <ThreeHeroCanvas />
         {/* Subtle studio texture */}

@@ -311,7 +311,7 @@ export function Contact() {
               <Card className="p-8 bg-gradient-to-br from-sky-500/10 via-slate-900 to-slate-900 border-sky-500/30 text-center relative overflow-hidden">
                 <div className="w-3 h-3 bg-sky-400 rounded-full mx-auto mb-4 animate-pulse shadow-[0_0_20px_rgba(56,189,248,0.6)]" />
                 <div className="text-white font-bold text-lg mb-2 tracking-tight">Open for Work</div>
-                <div className="text-slate-400 text-sm leading-relaxed font-medium">Available for On-Site, Remote or Hybrid Full-Stack opportunities.</div>
+                <div className="text-slate-400 text-sm leading-relaxed font-medium">Available for any On-Site, Remote or Hybrid opportunities.</div>
               </Card>
             </motion.div>
           </div>

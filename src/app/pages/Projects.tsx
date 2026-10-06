@@ -74,7 +74,7 @@ export function Projects() {
       tags: ["Python", "AI", "Core Logic"],
       description:
         "Core AI-focused Python project built around reusable modules and practical backend logic organization.",
-      image: "/assets/images/slainteai-core.png",
+      image: "/assets/images/Screenshot 2026-10-06 174050.png",
       demoUrl: null,
       codeUrl: "https://github.com/dhurghamCreation/SlainteAI-Core",
       gradient: "from-stone-600/20 to-neutral-700/20",
@@ -151,7 +151,7 @@ export function Projects() {
       tags: ["HTML5", "JavaScript", "Browser Game", "Zero-Dependency"],
       description:
         "Single-file, self-contained browser game set in the Chrono-Archive with tactical corridor progression and responsive controls.",
-      image: "/assets/images/croc.png",
+      image: "/assets/images/tactical.png",
       demoUrl: "https://tactical-3ag51vgq1-dhurgham-s-projects.vercel.app/",
       codeUrl: "https://github.com/dhurghamCreation/TheTacticalEcho",
       gradient: "from-slate-600/20 to-zinc-700/20",
@@ -217,7 +217,7 @@ export function Projects() {
       tags: ["Kotlin", "Multiplatform", "Desktop & Mobile", "Web"],
       description:
         "Kotlin Multiplatform timezone and currency companion running across Android, Desktop, and Web with an animated day/night-aware interface.",
-      image: "/assets/images/A Beautiful day.png",
+      image: "/assets/images/Gleo (1).png",
       demoUrl: null,
       codeUrl: "https://github.com/dhurghamCreation/Globetrotter",
       gradient: "from-slate-500/20 to-stone-700/20",
@@ -239,7 +239,7 @@ export function Projects() {
       tags: ["Python", "LLM Security", "RAG Defense", "Red-Teaming"],
       description:
         "Framework-agnostic LLM security toolkit for intercepting multi-turn jailbreaks, defending RAG pipelines against indirect prompt injection, and automated red-teaming.",
-      image: "/assets/images/lllllm.png",
+      image: "/assets/images/llm-sentinel.png",
       demoUrl: null,
       codeUrl: "https://github.com/dhurghamCreation/llm-sentinel",
       gradient: "from-stone-600/20 to-neutral-700/20",
@@ -250,7 +250,7 @@ export function Projects() {
       tags: ["Python", "Cybersecurity", "Sigma & YARA", "MITRE ATT&CK"],
       description:
         "Production-grade Sigma rules, YARA hunting signatures, and threat hunting playbooks mapped to MITRE ATT&CK and CI-validated on every commit.",
-      image: "/assets/images/dete.png",
+      image: "/assets/images/detection.png",
       demoUrl: null,
       codeUrl: "https://github.com/dhurghamCreation/detection-engineering-arsenal",
       gradient: "from-slate-600/20 to-zinc-700/20",
@@ -261,7 +261,7 @@ export function Projects() {
       tags: ["HTML", "CSS", "Creative Studio", "Micro-Animations"],
       description:
         "Pocket-sized creative studio presented inside a realistic phone frame with a splash screen and smooth micro-animations in a single self-contained HTML file.",
-      image: "/assets/images/illur.png",
+      image: "/assets/images/blueprint.png",
       demoUrl: "https://blue-brint-studio.vercel.app",
       codeUrl: "https://github.com/dhurghamCreation/BlueBrintStudio",
       gradient: "from-stone-600/20 to-neutral-700/20",
@@ -283,7 +283,7 @@ export function Projects() {
       tags: ["Python", "OCR", "Financial Auditing", "AI"],
       description:
         "Financial Intelligence Platform for automated receipt processing, heuristic extraction, and structured financial auditing.",
-      image: "/assets/images/agentic.png",
+      image: "/assets/images/OCR.png",
       demoUrl: "https://agentic-oc.vercel.app",
       codeUrl: "https://github.com/dhurghamCreation/Agentic-OCR",
       gradient: "from-slate-500/20 to-stone-700/20",

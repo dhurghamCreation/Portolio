@@ -31,7 +31,7 @@ export function Layout() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 relative overflow-hidden textured-surface">
+    <div className="min-h-screen bg-slate-950 text-slate-100 relative overflow-hidden">
       {/* Navigation */}
       <motion.nav
         initial={{ y: -100, opacity: 0 }}
@@ -42,8 +42,8 @@ export function Layout() {
           damping: 28,
           ease: [0.34, 1.56, 0.64, 1]
         }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-800 earth-glow human-popup ${
-          scrolled ? "bg-stone-800/95 backdrop-blur-lg shadow-lg shadow-sky-500/10" : "bg-transparent"
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-slate-950/90 backdrop-blur-md border-b border-sky-500/20 ${
+          scrolled ? "shadow-lg shadow-sky-500/10" : ""
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -278,16 +278,16 @@ export function Layout() {
       </motion.nav>
 
       {/* Main Content */}
-      <main className="pt-16 sm:pt-20 bg-stone-900">
+      <main className="bg-slate-950 text-slate-100">
         <Outlet />
       </main>
 
       {/* Footer */}
-      <footer className="bg-stone-800/50 border-t border-white/20 py-8 relative">
+      <footer className="bg-slate-950 border-t border-sky-500/20 py-8 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <motion.div 
-              className="text-stone-400 text-sm warm-shimmer human-card p-4"
+              className="text-slate-400 text-sm p-4"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, ease: [0.34, 1.56, 0.64, 1] }}
@@ -300,14 +300,14 @@ export function Layout() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, ease: [0.34, 1.56, 0.64, 1] }}
             >
-              <span className="text-stone-400 text-xs warm-shimmer human-card px-3 py-1">Portfolio v2.6.0</span>
+              <span className="text-slate-400 text-xs px-3 py-1 bg-slate-900 rounded-full border border-white/5">Portfolio v2.6.0</span>
               <div className="flex items-center space-x-2">
                 <motion.a
                   href="https://github.com/dhurghamCreation"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="GitHub Profile"
-                  className="text-stone-400 hover:text-sky-300 transition-colors duration-700 clay-hover"
+                  className="text-slate-400 hover:text-sky-300 transition-colors duration-300"
                   whileHover={{ scale: 1.06, rotate: 1.5 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -318,7 +318,7 @@ export function Layout() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Hack The Box Profile"
-                  className="text-stone-400 hover:text-sky-300 transition-colors duration-700 clay-hover"
+                  className="text-slate-400 hover:text-sky-300 transition-colors duration-300"
                   whileHover={{ scale: 1.06, rotate: -1.5 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -329,7 +329,7 @@ export function Layout() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Behance Portfolio"
-                  className="text-stone-400 hover:text-sky-300 transition-colors duration-700 clay-hover"
+                  className="text-slate-400 hover:text-sky-300 transition-colors duration-300"
                   whileHover={{ scale: 1.06, rotate: 1.5 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -340,7 +340,7 @@ export function Layout() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="LinkedIn Profile"
-                  className="text-stone-400 hover:text-blue-300 transition-colors duration-700 clay-hover"
+                  className="text-slate-400 hover:text-blue-300 transition-colors duration-300"
                   whileHover={{ scale: 1.06, rotate: -1.5 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -349,7 +349,7 @@ export function Layout() {
                 <motion.a
                   href="mailto:derg.moha@gmail.com"
                   title="Email"
-                  className="text-stone-400 hover:text-cyan-400 transition-colors duration-700 clay-hover"
+                  className="text-slate-400 hover:text-sky-300 transition-colors duration-300"
                   whileHover={{ scale: 1.06, rotate: 1.5 }}
                   whileTap={{ scale: 0.95 }}
                 >

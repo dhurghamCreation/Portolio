@@ -1,0 +1,8 @@
+{
+  "name": "Portfolio Project Showcase",
+  "description": "A dynamic, filterable portfolio component displaying project details, tech stacks, and links with integrated visual assets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
